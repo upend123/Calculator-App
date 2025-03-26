@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="@string/app_name"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="100dp"
+            android:text="Result"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:ems="15"
+            android:text="indicator"
+            android:textAlignment="viewEnd"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+
+        <GridLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="5"
+
+            >
+
+
+            <Button
+                android:id="@+id/btnAC"
+                android:text="AC"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/btnOpen_brace"
+                android:onClick="check"
+                android:text="("
+                android:textSize="30dp"
+            />
+
+            <Button
+                android:id="@+id/btnClose_brace"
+                android:onClick="check"
+                android:text=")"
+                android:textSize="30dp"  />
+
+
+            <Button
+                android:id="@+id/btnC"
+                android:text="C"
+                android:textSize="30dp"  />
+
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:onClick="check"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:onClick="check"
+                android:text="2"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="3"
+                android:textSize="30dp"
+
+                />
+            <Button
+                android:id="@+id/btnDiv"
+                android:onClick="check"
+                android:text="/"
+                android:textSize="30dp" />
+            <Button
+                android:id="@+id/btn4"
+                android:onClick="check"
+                android:text="4"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:onClick="check"
+                android:text="5"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/btn6"
+                android:onClick="check"
+                android:text="6"
+                android:textSize="30dp" />
+            <Button
+                android:id="@+id/btnMul"
+                android:onClick="check"
+                android:text="*"
+                android:textSize="30dp"  />
+            <Button
+                android:id="@+id/btn7"
+                android:onClick="check"
+                android:text="7"
+                android:textSize="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/btn8"
+                android:onClick="check"
+                android:text="8"
+                android:textSize="30dp"  />
+
+            <Button
+                android:id="@+id/btn9"
+                android:onClick="check"
+                android:text="9"
+                android:textSize="30dp"
+
+                />
+            <Button
+                android:id="@+id/btnSub"
+                android:onClick="check"
+                android:text="-"
+                android:textSize="30dp"  />
+            <Button
+                android:id="@+id/btn0"
+                android:onClick="check"
+                android:text="0"
+                android:textSize="30dp" />
+
+
+            <Button
+                android:id="@+id/btnDot"
+                android:onClick="check"
+                android:text="."
+                android:textSize="30dp"  />
+
+            <Button
+                android:id="@+id/btnMod"
+                android:onClick="check"
+                android:text="%"
+                android:textSize="30dp"  />
+            <Button
+                android:id="@+id/btnAdd"
+                android:onClick="check"
+                android:text="+"
+                android:textSize="30dp" />
+            <Button
+                android:id="@+id/btnEqual"
+                android:onClick="check"
+                android:text="="
+                android:textSize="30dp"
+                />
+
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

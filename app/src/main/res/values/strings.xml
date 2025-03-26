@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Upendra\'s Calculator</string>
+    <string name="btns_size">30dp</string>
+</resources>
