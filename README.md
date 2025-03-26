@@ -46,7 +46,7 @@ CalculatorApp/
 
 | Home Screen |
 | ----------- |
-|![Calculator Screenshot](https://github.com/yourusername/CalculatorApp/blob/main/assets/calculator-screenshot.png)
+|![Calculator Screenshot](https://github.com/upend123/Calculator-App/image.png)
  |
 
 ---
