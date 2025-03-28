@@ -48,7 +48,7 @@ CalculatorApp/
 | ----------- |
 
 ### Preview
-<img src="https://github.com/upend123/Calculator-App/blob/main/image.png" width="300" height="600" alt="Description">
+<img src="https://github.com/upend123/Calculator-App/blob/2f492deb8c59d30b4a16be425463782e725396c6/preview.png" width="300" height="600" alt="Description">
 
 ### Infix Expression Solve 
 <img src="https://github.com/upend123/Calculator-App/blob/026258ad36180cc6ae78fe591ec850dcf92101ff/image.png" width="300" height="600" alt="Description">
